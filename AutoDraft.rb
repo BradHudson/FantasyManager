@@ -155,12 +155,3 @@ end
 $teams.each do |team|
   puts team
 end
-
-
-
-
-
-
-
-
-
