@@ -27,7 +27,8 @@ def calculate_results
 
 
   book = Spreadsheet.open('dynasty_weeks_stats.xls')
-  sheet1 = book.worksheet('Sheet1') # can use an index or worksheet name
+  sheet1 = book.worksheet('Sheet1')
+
   sheet1.each do |row|
     unless row[0].nil? || row[0].to_s.empty?
       team = row[0]
@@ -37,13 +38,16 @@ def calculate_results
       results[team.to_sym][:wins] = 0 unless results[team.to_sym].key?(:wins)
       results[team.to_sym][:loss] = 0 unless results[team.to_sym].key?(:loss)
     end
+
     unless row[1].nil?
       year = row[1].to_s
       results[team.to_sym][year.to_sym] = {} unless results[team.to_sym].key?(year)
     end
+
     unless row[2].nil?
       week = row[2]
     end
+
     unless row[3].nil?
       opponent = row[3]
       results[team.to_sym][year.to_sym][opponent.to_sym] = {} unless results[team.to_sym][year.to_sym].key?(opponent.to_sym)
@@ -58,6 +62,7 @@ def calculate_results
       results[team.to_sym][opponent.to_sym][:pts_for] = 0 unless results[team.to_sym][opponent.to_sym].key?(:pts_for)
       results[team.to_sym][opponent.to_sym][:pts_against] = 0 unless results[team.to_sym][opponent.to_sym].key?(:pts_against)
     end
+
     unless row[4].nil?
       results[team.to_sym][:wins] += 1 if row[4].downcase == 'win'
       results[team.to_sym][:loss] += 1 if row[4].downcase == 'loss'
@@ -68,6 +73,7 @@ def calculate_results
       results[team.to_sym][opponent.to_sym][:wins] += 1 if row[4].downcase == 'win'
       results[team.to_sym][opponent.to_sym][:loss] += 1 if row[4].downcase == 'loss'
     end
+
     unless row[5].nil?
       scores = row[5].split(' - ')
       results[team.to_sym][:pts_for] += scores[0].to_f
