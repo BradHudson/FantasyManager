@@ -8,23 +8,24 @@ agent = Mechanize.new
 login = agent.get('https://football.fantasysports.yahoo.com/f1/105480')
 login_form = login.forms.first
 username_field = login_form.field_with(:name => "username")
-username_field.value = "blah"
+username_field.value = ''
 page  = login_form.click_button
 
 login_form = page.forms.first
 password_field = login_form.field_with(:name => "password")
-password_field.value = 'blah'
+password_field.value = ''
 button = page.form.button_with(name: "verifyPassword")
-binding.pry
-page  = login_form.click_button(button)
-binding.pry
-first_page = agent.get("https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8")
-first_page.parser.css('#statTable1')
-first_page.body
+login_form.click_button(button)
+
+# first_page = agent.get("https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8")
+# binding.pry
+# first_page.parser.css('#statTable1')
+# first_page.body
 
 #ysf-player-class
 
-puts 'blah'
+
+
 URLs = [
     #week 14
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
@@ -63,52 +64,70 @@ URLs = [
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=9&mid1=5&mid2=8",
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=9&mid1=9&mid2=10",
     #week 8
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=8&mid1=7&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=8&mid1=1&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=8&mid1=2&mid2=10",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=8&mid1=3&mid2=6",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=8&mid1=4&mid2=5",
     #week 7
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=7&mid1=7&mid2=2",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=7&mid1=1&mid2=4",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=7&mid1=3&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=7&mid1=5&mid2=10",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=7&mid1=6&mid2=9",
     #week 6
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=6&mid1=7&mid2=5",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=6&mid1=1&mid2=10",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=6&mid1=2&mid2=6",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=6&mid1=3&mid2=4",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=6&mid1=8&mid2=9",
     #week 5
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=5&mid1=7&mid2=6",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=5&mid1=1&mid2=5",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=5&mid1=2&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=5&mid1=3&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=5&mid1=4&mid2=10",
     #week 4
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=4&mid1=7&mid2=10",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=4&mid1=1&mid2=3",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=4&mid1=2&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=4&mid1=4&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=4&mid1=5&mid2=6",
     #week 3
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=3&mid1=7&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=3&mid1=1&mid2=2",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=3&mid1=3&mid2=5",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=3&mid1=4&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=3&mid1=6&mid2=10",
     #week 2
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=2&mid1=7&mid2=4",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=2&mid1=1&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=2&mid1=2&mid2=5",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=2&mid1=3&mid2=10",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=2&mid1=6&mid2=8",
     #week 1
-    "",
-    "",
-    "",
-    "",
-    "",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=1&mid1=7&mid2=1",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=1&mid1=2&mid2=3",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=1&mid1=4&mid2=6",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=1&mid1=5&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=1&mid1=8&mid2=10",
 ]
+
+
+
+week = 14
+game = 1
+URLs.each do |url|
+  page = agent.get(url)
+  output = File.open( "2017/WeekMatchupDetailed/#{ week }/game#{ game }.html","w" )
+  output << page.body
+  output.close
+  if game == 5
+    week -= 1
+    game = 1
+    next
+  end
+  game += 1
+end
+
 
