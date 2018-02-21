@@ -6,36 +6,36 @@
 #
 require 'nokogiri'
 require 'pry'
+require 'json'
 
+game = 1
+week = 1
+70.times do
+  page = Nokogiri::HTML(open("2017/WeekMatchupDetailed/#{ week }/game#{ game }.html"))
 
-page = Nokogiri::HTML(open("2017/WeekMatchupDetailed/1/game1.html"))
+  stats = {
+      "Team_1": {
+          "name": page.css('.F-link').first.children.text,
+          "score": page.css('.Fz-xxl.Ta-end.Ptop-xxl.Pend-lg')[0].children.text,
+          "projected":  page.css('.F-shade.Ta-end.Pend-lg.Fz-med.Pbot-xxl.Ptop-med')[0].children.text,
+          "players": []
+      },
+      "Team_2": {
+          "name": page.css('.F-link')[1].children.text,
+          "score": page.css('.Fz-xxl.Ta-start.Ptop-xxl.Pstart-lg')[0].children.text,
+          "projected": page.css('.F-shade.Ta-start.Pstart-lg.Fz-med.Pbot-xxl.Ptop-med')[0].children.text,
+          "players": []
+      }
+  }
 
-teams = []
+  counter = 0
 
-teams.push(page.css('.F-link').first.children.text)
-teams.push(page.css('.F-link')[1].children.text)
+  times_to_loop = page.css('.Ta-end.Fw-b.Nowrap.Va-top').length
 
-stats = {
-    "Team_1": {
-        "score": page.css('.Fz-xxl.Ta-end.Ptop-xxl.Pend-lg')[0].children.text,
-        "projected":  page.css('.F-shade.Ta-end.Pend-lg.Fz-med.Pbot-xxl.Ptop-med')[0].children.text,
-        "players": []
-    },
-    "Team_2": {
-        "score": page.css('.Fz-xxl.Ta-start.Ptop-xxl.Pstart-lg')[0].children.text,
-        "projected": page.css('.F-shade.Ta-start.Pstart-lg.Fz-med.Pbot-xxl.Ptop-med')[0].children.text,
-        "players": []
-    }
-}
-
-counter = 0
-final_result = []
-times_to_loop = page.css('.Ta-end.Fw-b.Nowrap.Va-top').length
-
-times_to_loop.times do
+  times_to_loop.times do
     begin
       name = page.css('.ysf-player-name')[counter]&.children&.first&.text
-      position = page.css('.ysf-player-name')[counter]&.children[2]&.children&.text
+      position = page.css('.ysf-player-name')[counter]&.children[2]&.children&.text.split.last
       if counter >= 20
         projected = page.css('.Alt.Ta-end.F-shade.Va-top')[counter+6]&.children&.children&.text
         actual = page.css('.Ta-end.Fw-b.Nowrap.Va-top')[counter+6]&.children&.last&.children&.text
@@ -51,6 +51,7 @@ times_to_loop.times do
       actual ||= nil
       starter ||= nil
     end
+
     result = {
         "name": name,
         "position": position,
@@ -58,13 +59,26 @@ times_to_loop.times do
         "actual": actual,
         "starter": starter
     }
-    puts result
+
     if counter % 2 == 0
       stats[:Team_1][:players].push(result) unless result[:name] == nil
     else
       stats[:Team_2][:players].push(result) unless result[:name] == nil
     end
-  counter += 1
-end
+    counter += 1
+  end
 
-puts stats
+  # puts stats
+
+  output = File.open( "2017/WeekMatchupDetailed/#{ week }/game#{ game }.json","w" )
+  output << JSON.pretty_generate(stats)
+  output.close
+  if game == 5
+    week +=1
+    game = 1
+  else
+    game += 1
+  end
+end
+puts 'Done.'
+

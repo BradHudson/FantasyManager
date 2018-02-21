@@ -27,6 +27,18 @@ login_form.click_button(button)
 
 
 URLs = [
+    #week 16 FIXXXX
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=1&mid2=2",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=3&mid2=5",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=4&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=6&mid2=10",
+    #week 15 FIXXXX
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=1&mid2=2",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=3&mid2=5",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=4&mid2=9",
+    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=6&mid2=10",
     #week 14
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=1&mid2=2",

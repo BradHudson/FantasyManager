@@ -1,0 +1,324 @@
+{
+  "Team_1": {
+    "name": "30 Rack of Matty Ice",
+    "score": "148.84",
+    "projected": "156.87",
+    "players": [
+      {
+        "name": "C. Newton",
+        "position": "QB",
+        "projected": "21.01",
+        "actual": "16.14",
+        "starter": true
+      },
+      {
+        "name": "B. Cooks",
+        "position": "WR",
+        "projected": "18.98",
+        "actual": "11.80",
+        "starter": true
+      },
+      {
+        "name": "G. Tate",
+        "position": "WR",
+        "projected": "15.95",
+        "actual": "23.40",
+        "starter": true
+      },
+      {
+        "name": "M. Crabtree",
+        "position": "WR",
+        "projected": "15.24",
+        "actual": "14.30",
+        "starter": true
+      },
+      {
+        "name": "L. Bell",
+        "position": "RB",
+        "projected": "21.70",
+        "actual": "7.70",
+        "starter": true
+      },
+      {
+        "name": "E. Elliott",
+        "position": "RB",
+        "projected": "16.97",
+        "actual": "21.00",
+        "starter": true
+      },
+      {
+        "name": "G. Olsen",
+        "position": "TE",
+        "projected": "14.67",
+        "actual": "3.80",
+        "starter": true
+      },
+      {
+        "name": "D. Thomas",
+        "position": "WR",
+        "projected": "16.41",
+        "actual": "11.70",
+        "starter": true
+      },
+      {
+        "name": "M. Prater",
+        "position": "K",
+        "projected": "7.69",
+        "actual": "7.00",
+        "starter": true
+      },
+      {
+        "name": "Los Angeles",
+        "position": "DEF",
+        "projected": "8.25",
+        "actual": "32.00",
+        "starter": true
+      },
+      {
+        "name": "S. Watkins",
+        "position": "WR",
+        "projected": "14.65",
+        "actual": "10.80",
+        "starter": false
+      },
+      {
+        "name": "J. Crowder",
+        "position": "WR",
+        "projected": "14.17",
+        "actual": "1.40",
+        "starter": false
+      },
+      {
+        "name": "C. Anderson",
+        "position": "RB",
+        "projected": "10.99",
+        "actual": "9.80",
+        "starter": false
+      },
+      {
+        "name": "S. Shepard",
+        "position": "WR",
+        "projected": "10.76",
+        "actual": "12.00",
+        "starter": false
+      },
+      {
+        "name": "J. Hill",
+        "position": "RB",
+        "projected": "9.49",
+        "actual": "3.40",
+        "starter": false
+      },
+      {
+        "name": "T. West",
+        "position": "RB",
+        "projected": "10.78",
+        "actual": "14.00",
+        "starter": false
+      },
+      {
+        "name": "O. Howard",
+        "position": "TE",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "Z. Jones",
+        "position": "WR",
+        "projected": "10.34",
+        "actual": "3.10",
+        "starter": false
+      },
+      {
+        "name": "P. Mahomes II",
+        "position": "QB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "C. Kupp",
+        "position": "WR",
+        "projected": "8.31",
+        "actual": "17.60",
+        "starter": false
+      },
+      {
+        "name": "M. Mack",
+        "position": "RB",
+        "projected": "6.47",
+        "actual": "11.50",
+        "starter": false
+      },
+      {
+        "name": "(Empty)",
+        "position": null,
+        "projected": null,
+        "actual": null,
+        "starter": null
+      }
+    ]
+  },
+  "Team_2": {
+    "name": "George W Kush",
+    "score": "123.64",
+    "projected": "148.86",
+    "players": [
+      {
+        "name": "A. Rodgers",
+        "position": "QB",
+        "projected": "24.86",
+        "actual": "15.54",
+        "starter": true
+      },
+      {
+        "name": "T. Hilton",
+        "position": "WR",
+        "projected": "15.18",
+        "actual": "5.70",
+        "starter": true
+      },
+      {
+        "name": "D. Hopkins",
+        "position": "WR",
+        "projected": "15.73",
+        "actual": "18.50",
+        "starter": true
+      },
+      {
+        "name": "A. Robinson",
+        "position": "WR",
+        "projected": "14.93",
+        "actual": "2.70",
+        "starter": true
+      },
+      {
+        "name": "D. Johnson",
+        "position": "RB",
+        "projected": "20.47",
+        "actual": "12.00",
+        "starter": true
+      },
+      {
+        "name": "J. Howard",
+        "position": "RB",
+        "projected": "14.50",
+        "actual": "15.60",
+        "starter": true
+      },
+      {
+        "name": "E. Ebron",
+        "position": "TE",
+        "projected": "11.55",
+        "actual": "2.90",
+        "starter": true
+      },
+      {
+        "name": "A. Thielen",
+        "position": "WR",
+        "projected": "13.00",
+        "actual": "29.70",
+        "starter": true
+      },
+      {
+        "name": "M. Bryant",
+        "position": "K",
+        "projected": "10.47",
+        "actual": "12.00",
+        "starter": true
+      },
+      {
+        "name": "Arizona",
+        "position": "DEF",
+        "projected": "8.17",
+        "actual": "9.00",
+        "starter": true
+      },
+      {
+        "name": "B. Perriman",
+        "position": "WR",
+        "projected": "11.15",
+        "actual": "1.50",
+        "starter": false
+      },
+      {
+        "name": "M. Wallace",
+        "position": "WR",
+        "projected": "12.17",
+        "actual": "1.80",
+        "starter": false
+      },
+      {
+        "name": "T. Coleman",
+        "position": "RB",
+        "projected": "10.92",
+        "actual": "9.80",
+        "starter": false
+      },
+      {
+        "name": "R. Kelley",
+        "position": "RB",
+        "projected": "10.29",
+        "actual": "3.00",
+        "starter": false
+      },
+      {
+        "name": "K. Britt",
+        "position": "WR",
+        "projected": "12.00",
+        "actual": "2.30",
+        "starter": false
+      },
+      {
+        "name": "T. Riddick",
+        "position": "RB",
+        "projected": "10.85",
+        "actual": "14.60",
+        "starter": false
+      },
+      {
+        "name": "J. Doctson",
+        "position": "WR",
+        "projected": "11.11",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "T. Lockett",
+        "position": "WR",
+        "projected": "11.15",
+        "actual": "1.80",
+        "starter": false
+      },
+      {
+        "name": "K. White",
+        "position": "WR",
+        "projected": "12.69",
+        "actual": "2.60",
+        "starter": false
+      },
+      {
+        "name": "D. Johnson Jr.",
+        "position": "RB",
+        "projected": "11.74",
+        "actual": "4.00",
+        "starter": false
+      },
+      {
+        "name": "C. Wentz",
+        "position": "QB",
+        "projected": "14.49",
+        "actual": "20.88",
+        "starter": false
+      },
+      {
+        "name": "C. Meredith",
+        "position": "WR",
+        "projected": "",
+        "actual": "0.00",
+        "starter": false
+      }
+    ]
+  }
+}

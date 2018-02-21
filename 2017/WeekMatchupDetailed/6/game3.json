@@ -1,0 +1,338 @@
+{
+  "Team_1": {
+    "name": "Nanny is heating up",
+    "score": "123.44",
+    "projected": "157.98",
+    "players": [
+      {
+        "name": "D. Brees",
+        "position": "QB",
+        "projected": "26.34",
+        "actual": "13.54",
+        "starter": true
+      },
+      {
+        "name": "K. Benjamin",
+        "position": "WR",
+        "projected": "13.92",
+        "actual": "18.90",
+        "starter": true
+      },
+      {
+        "name": "M. Evans",
+        "position": "WR",
+        "projected": "15.88",
+        "actual": "18.50",
+        "starter": true
+      },
+      {
+        "name": "C. Hogan",
+        "position": "WR",
+        "projected": "15.18",
+        "actual": "2.90",
+        "starter": true
+      },
+      {
+        "name": "K. Hunt",
+        "position": "RB",
+        "projected": "18.76",
+        "actual": "16.00",
+        "starter": true
+      },
+      {
+        "name": "D. Freeman",
+        "position": "RB",
+        "projected": "17.50",
+        "actual": "9.90",
+        "starter": true
+      },
+      {
+        "name": "C. Brate",
+        "position": "TE",
+        "projected": "10.04",
+        "actual": "19.60",
+        "starter": true
+      },
+      {
+        "name": "L. Miller",
+        "position": "RB",
+        "projected": "14.23",
+        "actual": "11.10",
+        "starter": true
+      },
+      {
+        "name": "S. Gostkowski",
+        "position": "K",
+        "projected": "9.75",
+        "actual": "6.00",
+        "starter": true
+      },
+      {
+        "name": "Denver",
+        "position": "DEF",
+        "projected": "16.38",
+        "actual": "7.00",
+        "starter": true
+      },
+      {
+        "name": "J. Witten",
+        "position": "TE",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "R. Matthews",
+        "position": "WR",
+        "projected": "13.46",
+        "actual": "10.90",
+        "starter": false
+      },
+      {
+        "name": "J. Winston",
+        "position": "QB",
+        "projected": "15.16",
+        "actual": "2.44",
+        "starter": false
+      },
+      {
+        "name": "D. Prescott",
+        "position": "QB",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "W. Snead",
+        "position": "WR",
+        "projected": "11.46",
+        "actual": "2.10",
+        "starter": false
+      },
+      {
+        "name": "J. Stewart",
+        "position": "RB",
+        "projected": "7.09",
+        "actual": "-0.40",
+        "starter": false
+      },
+      {
+        "name": "A. Gates",
+        "position": "TE",
+        "projected": "7.62",
+        "actual": "2.60",
+        "starter": false
+      },
+      {
+        "name": "C. Godwin",
+        "position": "WR",
+        "projected": "3.79",
+        "actual": "1.90",
+        "starter": false
+      },
+      {
+        "name": "D. Funchess",
+        "position": "WR",
+        "projected": "11.60",
+        "actual": "6.60",
+        "starter": false
+      },
+      {
+        "name": "G. Allison",
+        "position": "WR",
+        "projected": "7.09",
+        "actual": "1.70",
+        "starter": false
+      },
+      {
+        "name": "Seattle",
+        "position": "DEF",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "D. Woodhead",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "J. Edelman",
+        "position": "WR",
+        "projected": "",
+        "actual": "0.00",
+        "starter": false
+      }
+    ]
+  },
+  "Team_2": {
+    "name": "Just the Tip",
+    "score": "154.08",
+    "projected": "129.79",
+    "players": [
+      {
+        "name": "M. Stafford",
+        "position": "QB",
+        "projected": "17.75",
+        "actual": "12.88",
+        "starter": true
+      },
+      {
+        "name": "D. Jackson",
+        "position": "WR",
+        "projected": "12.88",
+        "actual": "12.80",
+        "starter": true
+      },
+      {
+        "name": "E. Sanders",
+        "position": "WR",
+        "projected": "13.59",
+        "actual": "12.60",
+        "starter": true
+      },
+      {
+        "name": "E. Decker",
+        "position": "WR",
+        "projected": "9.84",
+        "actual": "15.80",
+        "starter": true
+      },
+      {
+        "name": "M. Gordon",
+        "position": "RB",
+        "projected": "18.25",
+        "actual": "36.00",
+        "starter": true
+      },
+      {
+        "name": "C. Hyde",
+        "position": "RB",
+        "projected": "11.44",
+        "actual": "24.50",
+        "starter": true
+      },
+      {
+        "name": "Z. Ertz",
+        "position": "TE",
+        "projected": "15.44",
+        "actual": "15.80",
+        "starter": true
+      },
+      {
+        "name": "A. Hurns",
+        "position": "WR",
+        "projected": "12.09",
+        "actual": "6.70",
+        "starter": true
+      },
+      {
+        "name": "G. Zuerlein",
+        "position": "K",
+        "projected": "8.53",
+        "actual": "11.00",
+        "starter": true
+      },
+      {
+        "name": "Jacksonville",
+        "position": "DEF",
+        "projected": "9.98",
+        "actual": "6.00",
+        "starter": true
+      },
+      {
+        "name": "S. Diggs",
+        "position": "WR",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "D. Bryant",
+        "position": "WR",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "M. Mariota",
+        "position": "QB",
+        "projected": "17.51",
+        "actual": "16.24",
+        "starter": false
+      },
+      {
+        "name": "E. Engram",
+        "position": "TE",
+        "projected": "10.31",
+        "actual": "19.20",
+        "starter": false
+      },
+      {
+        "name": "M. Sanu",
+        "position": "WR",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "R. Burkhead",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "M. Lee",
+        "position": "WR",
+        "projected": "11.89",
+        "actual": "15.00",
+        "starter": false
+      },
+      {
+        "name": "J. Rodgers",
+        "position": "RB",
+        "projected": "4.98",
+        "actual": "1.70",
+        "starter": false
+      },
+      {
+        "name": "M. Williams",
+        "position": "WR",
+        "projected": "7.86",
+        "actual": "2.50",
+        "starter": false
+      },
+      {
+        "name": "T. Riddick",
+        "position": "RB",
+        "projected": "9.93",
+        "actual": "10.30",
+        "starter": false
+      },
+      {
+        "name": "J. Goff",
+        "position": "QB",
+        "projected": "13.91",
+        "actual": "8.86",
+        "starter": false
+      },
+      {
+        "name": "(Empty)",
+        "position": null,
+        "projected": null,
+        "actual": null,
+        "starter": null
+      },
+      {
+        "name": "(Empty)",
+        "position": null,
+        "projected": null,
+        "actual": null,
+        "starter": null
+      }
+    ]
+  }
+}

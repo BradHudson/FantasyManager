@@ -1,0 +1,324 @@
+{
+  "Team_1": {
+    "name": "Not Payton's Team",
+    "score": "101.22",
+    "projected": "116.50",
+    "players": [
+      {
+        "name": "E. Manning",
+        "position": "QB",
+        "projected": "13.38",
+        "actual": "16.92",
+        "starter": true
+      },
+      {
+        "name": "M. Thomas",
+        "position": "WR",
+        "projected": "16.55",
+        "actual": "22.70",
+        "starter": true
+      },
+      {
+        "name": "T. Ginn Jr.",
+        "position": "WR",
+        "projected": "9.99",
+        "actual": "1.30",
+        "starter": true
+      },
+      {
+        "name": "C. Davis",
+        "position": "WR",
+        "projected": "11.02",
+        "actual": "5.80",
+        "starter": true
+      },
+      {
+        "name": "A. Kamara",
+        "position": "RB",
+        "projected": "14.47",
+        "actual": "26.80",
+        "starter": true
+      },
+      {
+        "name": "A. Peterson",
+        "position": "RB",
+        "projected": "9.18",
+        "actual": "2.20",
+        "starter": true
+      },
+      {
+        "name": "H. Henry",
+        "position": "TE",
+        "projected": "9.78",
+        "actual": "1.70",
+        "starter": true
+      },
+      {
+        "name": "J. White",
+        "position": "RB",
+        "projected": "13.27",
+        "actual": "10.80",
+        "starter": true
+      },
+      {
+        "name": "G. Gano",
+        "position": "K",
+        "projected": "8.27",
+        "actual": "10.00",
+        "starter": true
+      },
+      {
+        "name": "Carolina",
+        "position": "DEF",
+        "projected": "10.59",
+        "actual": "3.00",
+        "starter": true
+      },
+      {
+        "name": "D. Adams",
+        "position": "WR",
+        "projected": "10.41",
+        "actual": "20.00",
+        "starter": false
+      },
+      {
+        "name": "J. Matthews",
+        "position": "WR",
+        "projected": "8.52",
+        "actual": "2.40",
+        "starter": false
+      },
+      {
+        "name": "T. Kroft",
+        "position": "TE",
+        "projected": "9.20",
+        "actual": "1.40",
+        "starter": false
+      },
+      {
+        "name": "D. Carr",
+        "position": "QB",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "L. Blount",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "D. Amendola",
+        "position": "WR",
+        "projected": "11.19",
+        "actual": "7.60",
+        "starter": false
+      },
+      {
+        "name": "R. Cobb",
+        "position": "WR",
+        "projected": "8.76",
+        "actual": "9.00",
+        "starter": false
+      },
+      {
+        "name": "D. Cook",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "T. Bridgewater",
+        "position": "QB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "J. Tucker",
+        "position": "K",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "Philadelphia",
+        "position": "DEF",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "A. Luck",
+        "position": "QB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      }
+    ]
+  },
+  "Team_2": {
+    "name": "Julio's your daddy",
+    "score": "142.98",
+    "projected": "122.85",
+    "players": [
+      {
+        "name": "K. Cousins",
+        "position": "QB",
+        "projected": "16.52",
+        "actual": "29.58",
+        "starter": true
+      },
+      {
+        "name": "J. Jones",
+        "position": "WR",
+        "projected": "21.58",
+        "actual": "11.70",
+        "starter": true
+      },
+      {
+        "name": "P. Richardson",
+        "position": "WR",
+        "projected": "10.18",
+        "actual": "5.30",
+        "starter": true
+      },
+      {
+        "name": "K. Wright",
+        "position": "WR",
+        "projected": "8.16",
+        "actual": "9.60",
+        "starter": true
+      },
+      {
+        "name": "T. Gurley II",
+        "position": "RB",
+        "projected": "20.70",
+        "actual": "19.60",
+        "starter": true
+      },
+      {
+        "name": "T. Cohen",
+        "position": "RB",
+        "projected": "10.11",
+        "actual": "2.10",
+        "starter": true
+      },
+      {
+        "name": "A. Hooper",
+        "position": "TE",
+        "projected": "9.69",
+        "actual": "16.90",
+        "starter": true
+      },
+      {
+        "name": "D. Murray",
+        "position": "RB",
+        "projected": "10.50",
+        "actual": "29.20",
+        "starter": true
+      },
+      {
+        "name": "C. Boswell",
+        "position": "K",
+        "projected": "9.29",
+        "actual": "1.00",
+        "starter": true
+      },
+      {
+        "name": "Atlanta",
+        "position": "DEF",
+        "projected": "6.12",
+        "actual": "18.00",
+        "starter": true
+      },
+      {
+        "name": "J. Reed",
+        "position": "TE",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "M. Breida",
+        "position": "RB",
+        "projected": "6.49",
+        "actual": "12.80",
+        "starter": false
+      },
+      {
+        "name": "J. Allen",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "A. Cooper",
+        "position": "WR",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "M. Ryan",
+        "position": "QB",
+        "projected": "17.30",
+        "actual": "16.60",
+        "starter": false
+      },
+      {
+        "name": "T. Montgomery",
+        "position": "RB",
+        "projected": "9.43",
+        "actual": "14.80",
+        "starter": false
+      },
+      {
+        "name": "J. James",
+        "position": "TE",
+        "projected": "8.13",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "K. Golladay",
+        "position": "WR",
+        "projected": "7.27",
+        "actual": "8.40",
+        "starter": false
+      },
+      {
+        "name": "J. Garoppolo",
+        "position": "QB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "H. Butker",
+        "position": "K",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "Kansas City",
+        "position": "DEF",
+        "projected": "0.00",
+        "actual": "–",
+        "starter": false
+      },
+      {
+        "name": "C. Carson",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      }
+    ]
+  }
+}

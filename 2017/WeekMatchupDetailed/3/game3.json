@@ -1,0 +1,310 @@
+{
+  "Team_1": {
+    "name": "Rick James Bitch",
+    "score": "88.62",
+    "projected": "139.02",
+    "players": [
+      {
+        "name": "T. Brady",
+        "position": "QB",
+        "projected": "28.34",
+        "actual": "44.72",
+        "starter": true
+      },
+      {
+        "name": "J. Maclin",
+        "position": "WR",
+        "projected": "12.81",
+        "actual": "1.80",
+        "starter": true
+      },
+      {
+        "name": "T. Williams",
+        "position": "WR",
+        "projected": "13.57",
+        "actual": "3.50",
+        "starter": true
+      },
+      {
+        "name": "C. Conley",
+        "position": "WR",
+        "projected": "9.82",
+        "actual": "0.00",
+        "starter": true
+      },
+      {
+        "name": "L. McCoy",
+        "position": "RB",
+        "projected": "15.12",
+        "actual": "13.90",
+        "starter": true
+      },
+      {
+        "name": "J. Ajayi",
+        "position": "RB",
+        "projected": "15.88",
+        "actual": "4.50",
+        "starter": true
+      },
+      {
+        "name": "D. Walker",
+        "position": "TE",
+        "projected": "13.37",
+        "actual": "7.10",
+        "starter": true
+      },
+      {
+        "name": "M. Gillislee",
+        "position": "RB",
+        "projected": "12.20",
+        "actual": "3.10",
+        "starter": true
+      },
+      {
+        "name": "M. Crosby",
+        "position": "K",
+        "projected": "8.92",
+        "actual": "9.00",
+        "starter": true
+      },
+      {
+        "name": "Tennessee",
+        "position": "DEF",
+        "projected": "8.99",
+        "actual": "1.00",
+        "starter": true
+      },
+      {
+        "name": "J. Graham",
+        "position": "TE",
+        "projected": "11.91",
+        "actual": "14.20",
+        "starter": false
+      },
+      {
+        "name": "C. Coleman",
+        "position": "WR",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "M. Jones Jr.",
+        "position": "WR",
+        "projected": "11.70",
+        "actual": "5.40",
+        "starter": false
+      },
+      {
+        "name": "D. Moncrief",
+        "position": "WR",
+        "projected": "9.88",
+        "actual": "6.40",
+        "starter": false
+      },
+      {
+        "name": "D. Watson",
+        "position": "QB",
+        "projected": "9.99",
+        "actual": "22.14",
+        "starter": false
+      },
+      {
+        "name": "A. Humphries",
+        "position": "WR",
+        "projected": "3.58",
+        "actual": "12.80",
+        "starter": false
+      },
+      {
+        "name": "J. Smith-Schuster",
+        "position": "WR",
+        "projected": "7.96",
+        "actual": "5.90",
+        "starter": false
+      },
+      {
+        "name": "A. Morris",
+        "position": "RB",
+        "projected": "3.24",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "Houston",
+        "position": "DEF",
+        "projected": "5.18",
+        "actual": "10.00",
+        "starter": false
+      },
+      {
+        "name": "(Empty)",
+        "position": null,
+        "projected": null,
+        "actual": null,
+        "starter": null
+      },
+      {
+        "name": "S. Ware",
+        "position": "RB",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      }
+    ]
+  },
+  "Team_2": {
+    "name": "Chlamydia",
+    "score": "173.42",
+    "projected": "139.40",
+    "players": [
+      {
+        "name": "R. Wilson",
+        "position": "QB",
+        "projected": "16.83",
+        "actual": "45.52",
+        "starter": true
+      },
+      {
+        "name": "A. Green",
+        "position": "WR",
+        "projected": "19.54",
+        "actual": "29.10",
+        "starter": true
+      },
+      {
+        "name": "J. Nelson",
+        "position": "WR",
+        "projected": "18.38",
+        "actual": "23.20",
+        "starter": true
+      },
+      {
+        "name": "K. Stills",
+        "position": "WR",
+        "projected": "11.24",
+        "actual": "9.10",
+        "starter": true
+      },
+      {
+        "name": "C. McCaffrey",
+        "position": "RB",
+        "projected": "14.18",
+        "actual": "22.70",
+        "starter": true
+      },
+      {
+        "name": "J. Richard",
+        "position": "RB",
+        "projected": "9.16",
+        "actual": "1.80",
+        "starter": true
+      },
+      {
+        "name": "T. Kelce",
+        "position": "TE",
+        "projected": "16.79",
+        "actual": "1.10",
+        "starter": true
+      },
+      {
+        "name": "O. Beckham Jr.",
+        "position": "WR",
+        "projected": "16.81",
+        "actual": "28.90",
+        "starter": true
+      },
+      {
+        "name": "W. Lutz",
+        "position": "K",
+        "projected": "7.71",
+        "actual": "12.00",
+        "starter": true
+      },
+      {
+        "name": "Carolina",
+        "position": "DEF",
+        "projected": "8.76",
+        "actual": "0.00",
+        "starter": true
+      },
+      {
+        "name": "C. Beasley",
+        "position": "WR",
+        "projected": "10.64",
+        "actual": "1.40",
+        "starter": false
+      },
+      {
+        "name": "B. Powell",
+        "position": "RB",
+        "projected": "9.22",
+        "actual": "9.70",
+        "starter": false
+      },
+      {
+        "name": "T. Rawls",
+        "position": "RB",
+        "projected": "5.68",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "L. Treadwell",
+        "position": "WR",
+        "projected": "6.44",
+        "actual": "1.20",
+        "starter": false
+      },
+      {
+        "name": "T. Austin",
+        "position": "WR",
+        "projected": "3.74",
+        "actual": "-1.60",
+        "starter": false
+      },
+      {
+        "name": "T. Eifert",
+        "position": "TE",
+        "projected": "0.00",
+        "actual": "0.00",
+        "starter": false
+      },
+      {
+        "name": "G. Bernard",
+        "position": "RB",
+        "projected": "8.03",
+        "actual": "11.90",
+        "starter": false
+      },
+      {
+        "name": "D. Njoku",
+        "position": "TE",
+        "projected": "7.28",
+        "actual": "9.20",
+        "starter": false
+      },
+      {
+        "name": "C. Fleener",
+        "position": "TE",
+        "projected": "10.06",
+        "actual": "3.10",
+        "starter": false
+      },
+      {
+        "name": "R. Anderson",
+        "position": "WR",
+        "projected": "0.00",
+        "actual": "18.50",
+        "starter": false
+      },
+      {
+        "name": "K. Dixon",
+        "position": "RB",
+        "projected": "",
+        "actual": "0.00",
+        "starter": false
+      }
+    ]
+  }
+}
