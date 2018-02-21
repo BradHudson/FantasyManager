@@ -19,12 +19,12 @@ stats = {
     "Team_1": {
         "score": page.css('.Fz-xxl.Ta-end.Ptop-xxl.Pend-lg')[0].children.text,
         "projected":  page.css('.F-shade.Ta-end.Pend-lg.Fz-med.Pbot-xxl.Ptop-med')[0].children.text,
-        "players": {}
+        "players": []
     },
     "Team_2": {
         "score": page.css('.Fz-xxl.Ta-start.Ptop-xxl.Pstart-lg')[0].children.text,
         "projected": page.css('.F-shade.Ta-start.Pstart-lg.Fz-med.Pbot-xxl.Ptop-med')[0].children.text,
-        "players": {}
+        "players": []
     }
 }
 
@@ -33,7 +33,6 @@ final_result = []
 times_to_loop = page.css('.Ta-end.Fw-b.Nowrap.Va-top').length
 
 times_to_loop.times do
-   #reached end of starters
     begin
       name = page.css('.ysf-player-name')[counter]&.children&.first&.text
       position = page.css('.ysf-player-name')[counter]&.children[2]&.children&.text
@@ -60,9 +59,12 @@ times_to_loop.times do
         "starter": starter
     }
     puts result
-    final_result.push(result)
+    if counter % 2 == 0
+      stats[:Team_1][:players].push(result) unless result[:name] == nil
+    else
+      stats[:Team_2][:players].push(result) unless result[:name] == nil
+    end
   counter += 1
 end
 
-binding.pry
-puts final_result
+puts stats
