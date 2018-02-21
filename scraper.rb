@@ -17,28 +17,14 @@ password_field.value = ''
 button = page.form.button_with(name: "verifyPassword")
 login_form.click_button(button)
 
-# first_page = agent.get("https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8")
-# binding.pry
-# first_page.parser.css('#statTable1')
-# first_page.body
-
-#ysf-player-class
-
 
 
 URLs = [
-    #week 16 FIXXXX
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=1&mid2=2",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=3&mid2=5",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=4&mid2=9",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=6&mid2=10",
-    #week 15 FIXXXX
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=1&mid2=2",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=3&mid2=5",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=4&mid2=9",
-    "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=6&mid2=10",
+    # #week 16
+    # "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=16&mid1=7&mid2=2",
+    # #week 15 FIXXXX
+    # "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=15&mid1=7&mid2=9",
+    # "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=15&mid1=2&mid2=6",
     #week 14
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=7&mid2=8",
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=14&mid1=1&mid2=2",
@@ -125,6 +111,23 @@ URLs = [
     "https://football.fantasysports.yahoo.com/f1/105480/matchup?week=1&mid1=8&mid2=10",
 ]
 
+
+#week 15 and 16
+
+# page = agent.get("https://football.fantasysports.yahoo.com/f1/105480/matchup?week=16&mid1=7&mid2=2")
+# output = File.open( "2017/WeekMatchupDetailed/16/game1.html","w" )
+# output << page.body
+# output.close
+#
+# page = agent.get("https://football.fantasysports.yahoo.com/f1/105480/matchup?week=15&mid1=7&mid2=9")
+# output = File.open( "2017/WeekMatchupDetailed/15/game1.html","w" )
+# output << page.body
+# output.close
+#
+# page = agent.get("https://football.fantasysports.yahoo.com/f1/105480/matchup?week=15&mid1=2&mid2=6")
+# output = File.open( "2017/WeekMatchupDetailed/15/game2.html","w" )
+# output << page.body
+# output.close
 
 
 week = 14

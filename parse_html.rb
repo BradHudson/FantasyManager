@@ -1,9 +1,3 @@
-#find first two F-link class nodes
-# these have the team names
-#
-#ID of statTable1 has all the stats of non benched players
-#ID of statTable2 has the bench
-#
 require 'nokogiri'
 require 'pry'
 require 'json'
